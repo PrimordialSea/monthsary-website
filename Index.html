@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Monthsary!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffebf0;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #e6005c;
+        }
+        .hidden-message {
+            display: none;
+            margin-top: 20px;
+            color: #e6005c;
+            font-size: 20px;
+        }
+        button {
+            background-color: #e6005c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Monthsary, Langg ❤️</h1>
+        <p>Every moment with you is a treasure. Thank you for being my happiness and my heart. 💖</p>
+        <button onclick="showMessage()">Click for a Surprise!</button>
+        <p class="hidden-message" id="message">Happy Monthsary, my love! 💖 Every moment with you is a treasure, and each passing month only makes my love for you grow stronger. Thank you for the laughter, the love, and the memories we continue to create together. Here's to many more months and a lifetime of happiness! I love you! ❤️ 💕</p>
+    </div>
+    
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
